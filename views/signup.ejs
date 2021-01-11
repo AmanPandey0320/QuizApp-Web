@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>SignUp to Quizrr...</title>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+     
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+  </head>
+  <body>
+
+   <form  style="width: 50%;margin: auto;margin-top: 5%;">
+
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <h3 class="text-light"style="font-family: 'Righteous';">Welcome...</h3>
+    </nav>
+    
+    <p class="lead">
+
+    </p>
+    <div style="height: 30%; width: 30%; margin: auto; margin-top: 8%;">
+      <span >
+        <img src="https://firebasestorage.googleapis.com/v0/b/gossips-6259d.appspot.com/o/quiz%2Fmegaphone.png?alt=media&token=0e12779b-a515-495e-b27e-183e756024f9" alt="Loading..." style="height: 100%; width: 100%;">
+      </span>
+      <div style="margin: auto; margin-top: 10%;">
+        <h2 class="text-dark" style="text-shadow: 2px,2px,#4e4c4c; text-align: center; font-family: 'Permanent Marker';">Quizrr...</h2>
+      </div>
+    </div>
+     <div class="form-group" style="margin: auto; width: 85%; margin: auto;">
+      <input id="signup_email_txt" class="form-control" type="email" placeholder="Email ID" style="font-family: 'Righteous'; margin-top: 2%;" required>
+       <input id="signup_password_txt" class="form-control" type="password" placeholder="Password" style="font-family: 'Righteous'; margin-top: 2%;" required>
+       <input id="signup_confirm_txt" class="form-control" type="password" placeholder="Confirm password" style="font-family: 'Righteous'; margin-top: 2%;" required>
+     </div>
+     <div style="width: max-content; margin: auto; margin-top: 5%; margin-bottom: 5%;">
+
+      <button id="signup" type="button" class="btn btn-success">Sign up</button>
+
+     </div>
+   </form>
+
+
+    
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase.js"></script>
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-analytics.js"></script>
+    <script src="./logic/signup.js"></script>
+  </body>
+</html>
