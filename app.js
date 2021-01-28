@@ -3,7 +3,7 @@ let ejs =require('ejs');
 const e = require('express');
 const { query } = require('express');
 const app = express();
-const port = process.env.YOUR_PORT || process.env.port || 4532;
+const port = process.env.YOUR_PORT || process.env.port ;
 const host = process.env.YOUR_HOST || '0.0.0.0';
 
 const nodemailer=require('nodemailer');
