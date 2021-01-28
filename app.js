@@ -3,7 +3,8 @@ let ejs =require('ejs');
 const e = require('express');
 const { query } = require('express');
 const app = express();
-const port = 4532;
+const port = process.env.YOUR_PORT || process.env.port || 4532;
+const host = process.env.YOUR_HOST || '0.0.0.0';
 
 const nodemailer=require('nodemailer');
 const fetch =require('node-fetch');
@@ -475,4 +476,4 @@ app.post('/updateProfile',(req,res)=>{
   }
 });
 
-app.listen(port, () => console.log(`Example app listening on port ${port}`));
+app.listen(port,host, () => console.log(`Example app listening on port ${port}`));

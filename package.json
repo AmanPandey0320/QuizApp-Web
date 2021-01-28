@@ -4,6 +4,7 @@
   "description": "testing",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "devStart": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,5 +26,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
+  },
+  "engines": {
+    "node": "14.15.x"
   }
 }
