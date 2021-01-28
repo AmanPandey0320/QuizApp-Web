@@ -21,7 +21,6 @@
     "node-fetch": "^2.6.1",
     "nodemailer": "^6.4.17"
   },
-  "devDependencies": {},
   "engines": {
     "node": "14.15.x"
   }

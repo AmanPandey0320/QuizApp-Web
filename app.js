@@ -13,7 +13,6 @@ const emailHtml= require('./emailHtml');
 const bodyParser = require('body-parser');
 
 const serviceAccount=require('./serviceAccountKey.json');
-const { error } = require('jquery');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
