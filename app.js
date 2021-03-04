@@ -1,9 +1,9 @@
+require('dotenv').config();
 const express = require('express');
 let ejs =require('ejs');
 const e = require('express');
 const app = express();
-const port = process.env.YOUR_PORT || process.env.port ;
-const host = process.env.YOUR_HOST;
+const port = process.env.PORT || 3300;
 
 const nodemailer=require('nodemailer');
 const fetch =require('node-fetch');
@@ -474,4 +474,4 @@ app.post('/updateProfile',(req,res)=>{
   }
 });
 
-app.listen(port,host, () => console.log(`Example app listening on port ${port}`));
+app.listen(port, () => console.log(`Example app listening on port ${port}`));
